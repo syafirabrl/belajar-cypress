@@ -1,0 +1,16 @@
+{
+  "specName": "cypress\\e2e\\device\\delete.cy.js",
+  "title": "login",
+  "suiteName": "DELETE DEVICE",
+  "testName": "DELETE DEVICE login",
+  "testError": "`cy.type()` failed because it targeted a disabled element.\n\nThe element typed into was:\n\n  > <input type=\"password\" placeholder=\"Password\" class=\"form-control\">\n\nEnsure the element does not have an attribute named `disabled` before typing into it.",
+  "testCommands": [
+    "log kawakibi",
+    "log https://staging-console.antares.id",
+    "visit https://staging-console.antares.id",
+    "get form > .card-block > .form-group:nth-child(3) > .input-group > .form-control",
+    "type syafirabrl@gmail.com",
+    "get form > .card-block > .form-group:nth-child(4) > .input-group > .form-control",
+    "type kawakibi"
+  ]
+}

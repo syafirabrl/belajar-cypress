@@ -1,0 +1,12 @@
+{
+  "specName": "cypress\\e2e\\device\\delete.cy.js",
+  "title": "add device",
+  "suiteName": "DELETE DEVICE",
+  "testName": "DELETE DEVICE add device",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `.nav-item:nth-child(3) > .nav-link`, but never found it.",
+  "testCommands": [
+    "wrap null",
+    "visit https://staging-console.antares.id/dashboard/applications",
+    "get .nav-item:nth-child(3) > .nav-link"
+  ]
+}

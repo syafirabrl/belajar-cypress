@@ -1,0 +1,18 @@
+{
+  "specName": "cypress\\e2e\\application\\application.cy.js",
+  "title": "add apps",
+  "suiteName": "Application",
+  "testName": "Application add apps",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `.nav-item:nth-child(3) > .nav-link`, but never found it.",
+  "testCommands": [
+    "visit https://staging-console.antares.id",
+    "get form > .card-block > .form-group:nth-child(3) > .input-group > .form-control",
+    "type syafirabrl@gmail.com",
+    "get form > .card-block > .form-group:nth-child(4) > .input-group > .form-control",
+    "type kawakibi",
+    "get form > .card-block > .row > .col-6 > .btn-success",
+    "click ",
+    "request ",
+    "get .nav-item:nth-child(3) > .nav-link"
+  ]
+}

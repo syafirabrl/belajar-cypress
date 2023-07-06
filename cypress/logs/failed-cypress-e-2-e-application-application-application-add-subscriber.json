@@ -1,0 +1,12 @@
+{
+  "specName": "cypress\\e2e\\application\\application.cy.js",
+  "title": "add subscriber",
+  "suiteName": "Application",
+  "testName": "Application add subscriber",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `.card-block:nth-child(2)`, but never found it.",
+  "testCommands": [
+    "exec node monitor.js",
+    "visit https://staging-console.antares.id/dashboard/applications",
+    "get .card-block:nth-child(2)"
+  ]
+}
